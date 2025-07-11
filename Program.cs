@@ -8,7 +8,13 @@ namespace HelloWorld
   {
     static void Main(string[] args)
     {
-      Console.WriteLine("This is the first program of C# which was changed!");    
+      //C sharp variables Example
+      string name = "Niraj";
+      int age = 22;
+      /* C sharp multiple line comment 
+      with the concatenation example
+      */
+      Console.WriteLine("Warm Welcome everyone my name is " + name + " and my age is " + age);
     }
   }
 }
