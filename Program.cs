@@ -15,6 +15,11 @@ namespace HelloWorld
       with the concatenation example
       */
       Console.WriteLine("Warm Welcome everyone my name is " + name + " and my age is " + age);
+      Console.WriteLine("Enter your name:");
+      name = Console.ReadLine();
+      Console.WriteLine("Enter your age:");
+      age = Convert.ToInt32(Console.ReadLine());
+      Console.WriteLine("Your name is "+name+" and age is "+age);
     }
   }
 }
