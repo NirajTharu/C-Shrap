@@ -8,11 +8,14 @@ namespace Homework_1
         static void Main(string[] args)
         {
             string Input;
+            int n;
             Console.WriteLine("Enter what do you want even or odd");
             Input = Console.ReadLine();
+            Console.WriteLine("Enter the number up_to which you want to print the odd or even");
+            n = Convert.ToInt32(Console.ReadLine());           
             if (Input == "even")
             {
-                for (int i = 0; i <= 100; i++)
+                for (int i = 0; i <= n; i++)
                 {
                     if (i % 2 == 0)
                     {
@@ -21,9 +24,9 @@ namespace Homework_1
                 }
 
             }
-            else if(Input == "odd")
+            else if (Input == "odd")
             {
-                for (int i = 0; i <= 100; i++)
+                for (int i = 0; i <= n; i++)
                 {
                     if (i % 2 != 0)
                     {
